@@ -1,0 +1,90 @@
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://www.latency.ooo/bg.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: cover;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  color: white;
+  max-width: 90%;
+  padding: 2em 3em;
+  background: rgba(0, 0, 0, 0.75);
+  text-shadow: 0px 0px 2px #131415;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footer {
+  position: absolute;
+  top: 95%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  color: white;
+  max-width: 40%;
+ 
+
+  text-shadow: 0px 0px 2px #131415;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 2.25em;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+a,
+a:visited {
+  color: #e34234;
+  transition: 0.25s;
+}
+
+a:hover,
+a:focus {
+  color: #ba160c;
+}
+
+	.avatar {
+			position: relative;
+			display: block;
+			margin-bottom: 1.5em;
+		}
+
+			 .avatar img {
+				display: block;
+				margin: 0 auto;
+				
+			}
+
+	body, input, select, textarea {
+		color: #414f57;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 10pt;
+		font-weight: 300;
+		line-height: 2;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+			color: #ffffff;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 15pt;
+		font-weight: 300;
+		line-height: 2;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+	}
